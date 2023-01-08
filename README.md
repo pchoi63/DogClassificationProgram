@@ -1,9 +1,9 @@
-#Dog Classification Program
+# Dog Classification Program
 
 This program was developed to classify different dog breeds from an image. I chose python as my language because of all the library access I knew I had such as sklearn, numpy, and matpilot.
 I was interested in this topic because I only knew about template matching for classification in terms of computer vision. I wanted to use what I learned in this class to dig in more into my interest of image processing.
 
-##Data Break Down
+## Data Break Down
 The data was imported from Kaggle which consist of images of dogs. Images had 5 different classes meaning 5 different breed including beagle, greyhound, bulldog, pomeranian and golden retriever.
 Training Data had 275 images in total.
 59 Beagles, 53 Bulldogs, 63 Golden Retriever, 56 Greyhound, 44 Pomeranian
@@ -14,22 +14,22 @@ Go through all the images in the training folder. 1. Process the images from the
 3. Flattened image to an array.
 Goes into Training Mode
 
-##Training
+## Training
 Support Vector Machine
 - Learning methods used for classification and regression. - Effective in high dimensional spaces.
 Grid Search CV
 - Technique for finding the optimal parameter values from a given set of parameters in a grid. - Cross-validation technique.
 - After extracting the best parameter values, predictions are made.
 
-##Model
+## Model
 - Create a model that will be used for predictions.
 
-##Testing
+## Testing
 Go through all the images in the testing folder or image file. 1. Resize the testing image to match testing, 150 by 150.
 2. Flatten the images.
 3. Predict each image to the model.
 
-#Result
+## Result
 The total accuracy for all testing images is 88 percent.
 Pomeranian had 100 percent of accuracy as I believe its unique hair helped to classify.
 Beagle had 90 percent of accuracy as the spots helped.
