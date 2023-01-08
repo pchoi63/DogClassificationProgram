@@ -3,6 +3,8 @@
 This program was developed to classify different dog breeds from an image. I chose python as my language because of all the library access I knew I had such as sklearn, numpy, and matpilot.
 I was interested in this topic because I only knew about template matching for classification in terms of computer vision. I wanted to use what I learned in this class to dig in more into my interest of image processing.
 
+![Pomeranian-On-White-01](https://user-images.githubusercontent.com/110645615/211205805-51835bf1-d866-40a2-9524-d3df045b8be6.jpg)
+
 ## Data Break Down
 The data was imported from Kaggle which consist of images of dogs. Images had 5 different classes meaning 5 different breed including beagle, greyhound, bulldog, pomeranian and golden retriever.
 Training Data had 275 images in total.
@@ -40,7 +42,7 @@ Golden Retriever had 80 percent of accuracy. It had issues with classifying youn
 I was limited due to my status and CPU at the moment in terms of access to data sets. I would like to work with a bigger data set both for training and testing data. Not only more breeds and images for each of them but different categories with in that category. For example, grown gold retriever vs young retriever. I think that will fix the issues I am having of bulldogs being different color, hair quality of dogs in same breed... etc.
 I would also like to try training and testing the data in different size. I worked with 150 by 150 for reduced training time but curious to see the result in bigger size.
 
-### Directory: 
+## Directory: 
 - images = Images used for training my model
 - testIm = Images used for testing my model
 - img_model.p = Model created using SVM from images file
@@ -48,6 +50,6 @@ I would also like to try training and testing the data in different size. I work
 - ppt = powerpoint slides for the presentation
 - pdf = write up
 
-### Execution Steps:
+## Execution Steps:
  - Run main in printScenes.java
  - Result will be displayed on terminal
